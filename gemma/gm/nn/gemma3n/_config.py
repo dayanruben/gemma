@@ -20,9 +20,9 @@ import enum
 import functools
 
 from gemma.gm.nn.gemma3n import _modules
+from gemma.gm.nn.vision import _vision as gemma_vision
 from gemma.gm.text import _tokenizer
 from gemma.gm.utils import _types
-from gemma.multimodal import vision as gemma_vision
 import jax.numpy as jnp
 
 Cache = dict[str, _modules.LayerCache]

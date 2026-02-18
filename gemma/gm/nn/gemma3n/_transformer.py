@@ -29,11 +29,11 @@ from gemma.gm.nn import _transformer
 from gemma.gm.nn.gemma3n import _config
 from gemma.gm.nn.gemma3n import _layers
 from gemma.gm.nn.gemma3n import _modules
+from gemma.gm.nn.vision import _vision as gemma_vision
 from gemma.gm.utils import _dtype_params
 from gemma.gm.utils import _jax_utils
 from gemma.gm.utils import _types
 from gemma.gm.vision import _token_utils
-from gemma.multimodal import vision as gemma_vision
 import jax.numpy as jnp
 from kauldron import kd
 from kauldron import kontext

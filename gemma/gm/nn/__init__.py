@@ -69,4 +69,4 @@ with _epy.lazy_api_imports(globals()):
 
   from gemma.gm.nn import config
 
-  from gemma.multimodal.vision import SigLiPFromPatches
+  from gemma.gm.nn.vision._vision import SigLiPFromPatches
