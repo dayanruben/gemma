@@ -28,7 +28,7 @@ from flax import linen as nn
 from gemma.gm.nn.vision import _vision_utils
 import jax
 from jax import numpy as jnp
-from kauldron.typing import Bool, Float, Int, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Float, Int, typechecked  # pylint: disable=g-multiple-import,g-importing-member
 
 with epy.lazy_imports():
   # TODO(epot): Refactor to move everything inside gemma/gm/

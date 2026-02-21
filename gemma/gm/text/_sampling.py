@@ -20,7 +20,7 @@ import dataclasses
 from etils import enp
 import jax
 import jax.numpy as jnp
-from kauldron.typing import Float, Int, PRNGKey, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Float, Int, PRNGKey, typechecked  # pylint: disable=g-multiple-import,g-importing-member
 
 
 class SamplingMethod(abc.ABC):

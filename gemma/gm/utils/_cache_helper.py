@@ -22,7 +22,7 @@ from etils import epy
 import flax
 from gemma.gm.nn import _config
 import jax.numpy as jnp
-from kauldron.typing import Bool, Int  # pylint: disable=g-multiple-import
+from kauldron.ktyping import Bool, Int  # pylint: disable=g-multiple-import
 
 _Slice = slice | int
 _GetItem = _Slice | tuple[_Slice, ...]

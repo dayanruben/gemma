@@ -25,7 +25,7 @@ from gemma.gm.nn import _config
 from gemma.gm.utils import _types
 import jax.numpy as jnp
 from kauldron import kd
-from kauldron.typing import Bool, Float, Int, UInt8, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Float, Int, UInt8, typechecked  # pylint: disable=g-multiple-import,g-importing-member
 
 
 class TransformerConfig(Protocol):

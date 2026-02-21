@@ -17,7 +17,7 @@
 from etils import enp
 import flax
 import jax
-from kauldron.typing import Array, Bool, Int, PyTree  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Array, Bool, Int, PyTree  # pylint: disable=g-multiple-import,g-importing-member
 import numpy as np
 
 

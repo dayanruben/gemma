@@ -30,7 +30,7 @@ from gemma.gm.typing import _common
 from gemma.gm.utils import _cache_helper
 import jax
 import jax.numpy as jnp
-from kauldron.typing import Bool, Int, PRNGKey, check_type, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Int, PRNGKey, check_type, typechecked  # pylint: disable=g-multiple-import,g-importing-member
 
 
 @flax.struct.dataclass(kw_only=True)

@@ -34,7 +34,8 @@ from gemma.gm.utils import _types
 import jax
 import jax.numpy as jnp
 from kauldron import kd
-from kauldron.typing import Array, Float, Int, PRNGKey, PRNGKeyLike, UInt8  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Array, Float, PRNGKey, Int, UInt8  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.typing import PRNGKeyLike  # pylint: disable=g-multiple-import,g-importing-member
 import numpy as np
 
 

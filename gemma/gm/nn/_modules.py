@@ -21,7 +21,7 @@ from gemma.gm.nn import _layers
 import jax
 import jax.numpy as jnp
 from kauldron import kd
-from kauldron.typing import Bool, Int  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Int  # pylint: disable=g-multiple-import,g-importing-member
 
 K_MASK = -2.3819763e38  # Set to a large negative number.
 DEFAULT_ROPE_BASE_FREQUENCY = 10_000

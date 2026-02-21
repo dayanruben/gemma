@@ -29,7 +29,8 @@ from gemma.research.t5gemma import t5gemma
 import jax
 import jax.numpy as jnp
 from kauldron import kd
-from kauldron.typing import Array, Bool, Float, Int, PRNGKey, PRNGKeyLike, typechecked, check_type  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Array, Bool, Float, PRNGKey, Int, check_type, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.typing import PRNGKeyLike  # pylint: disable=g-multiple-import,g-importing-member
 import numpy as np
 
 

@@ -27,7 +27,7 @@ from gemma.gm.utils import _attention_mask
 from gemma.gm.vision import _token_utils
 import jax
 import jax.numpy as jnp
-from kauldron.typing import Bool, Int, UInt8  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Int, UInt8  # pylint: disable=g-multiple-import,g-importing-member
 
 _PADDING_ID = 0
 

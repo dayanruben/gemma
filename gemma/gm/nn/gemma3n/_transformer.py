@@ -37,7 +37,7 @@ from gemma.gm.vision import _token_utils
 import jax.numpy as jnp
 from kauldron import kd
 from kauldron import kontext
-from kauldron.typing import Bool, Float, Int, UInt8, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Float, Int, UInt8, typechecked  # pylint: disable=g-multiple-import,g-importing-member
 
 _PADDING_ID = 0
 

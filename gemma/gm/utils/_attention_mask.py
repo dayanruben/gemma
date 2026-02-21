@@ -17,7 +17,7 @@
 from __future__ import annotations
 
 import jax.numpy as jnp
-from kauldron.typing import Bool, Int, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Int, typechecked  # pylint: disable=g-multiple-import,g-importing-member
 
 
 @typechecked

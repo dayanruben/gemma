@@ -18,7 +18,7 @@ import einops
 from gemma.gm.text import _tokenizer
 import jax
 import jax.numpy as jnp
-from kauldron.typing import Bool, Float, Int, typechecked  # pylint: disable=g-multiple-import,g-importing-member
+from kauldron.ktyping import Bool, Float, Int, typechecked  # pylint: disable=g-multiple-import,g-importing-member
 
 # `\n\n` token for Gemma3 tokenizer.
 _DOUBLE_NEW_LINE_TOKEN = 108
